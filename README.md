@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Arseniy Ostroumov
+# 👋 Hi, I'm Arsenii Ostroumov
 
 💡 **Automation & Integration Engineer (AI-first)**
 I build Telegram bots, workflow automations, and API integrations — fast prototyping with AI tools, but with production basics (retries, idempotency, logging).
