@@ -1,42 +1,65 @@
 # 👋 Hi, I'm Arsenii Ostroumov
 
-💡 **Automation & Integration Engineer (AI-first)**
-I build Telegram bots, workflow automations, and API integrations — fast prototyping with AI tools, but with production basics (retries, idempotency, logging).
+**Automation / Integration Engineer** focused on workflow automation, API integrations, and applied LLM systems.
+
+I build production-oriented solutions that connect business processes with reliable execution: APIs, webhooks, bots, data pipelines, and AI-assisted workflows. My focus is not just prototyping, but making automation stable in real use with validation, retries/backoff, deduplication, and observability.
 
 ---
 
-### 🧠 What I do
-- 🤖 **AI-powered automations** (Cursor/LLM daily): content triage, internal assistants, workflow helpers
-- 🧩 **Integrations**: Telegram Bot API, webhooks, external APIs, Google Sheets / Apps Script
-- 🗃️ **Data & reliability**: PostgreSQL/Supabase, deduplication, retries/backoff, audit logs
-- ☁️ Cloud: Docker, serverless deployments (GCP / Yandex Cloud), 1C OData integrations
+## What I do
+
+- **Workflow automation** — n8n, API orchestration, webhooks, background processing, event-driven flows
+- **AI systems** — RAG assistants, structured LLM outputs, citation-first answers, validation and fallback flows
+- **Integrations** — CRM, messaging, external APIs, Google services, accounting and internal business systems
+- **Backend & data** — Python, FastAPI, PostgreSQL, SQL, pgvector, service logic, error handling
+- **Production reliability** — idempotency, retries, timeout handling, audit trails, incident-friendly logging
 
 ---
 
-### 🚀 Featured projects
+## Featured projects
 
-#### 🧭 [AI Market Screener](https://github.com/ArsenYoung/ai-market-screener)
-> Telegram + LLM pipeline: paste any text → category / priority → next steps (+ details).
-- Fast iteration demo-friendly UX
-- Designed as a reusable **content triage** pattern for business workflows
+### [AI Support RAG Assistant](https://github.com/ArsenYoung/ai-support-rag-assistant)
+Knowledge base assistant with retrieval, confidence thresholding, and citation-based answers.
+- RAG pipeline: ingest → chunking → embeddings → vector search → grounded response
+- Hallucination control with **ALLOW / CLARIFY / NO_ANSWER**
+- Webhook contracts for ingest and answer flows
+- Telemetry for `top_score`, latency, and sources per turn
 
-#### 📩 [Lead Capture: Web → Google Apps Script → Sheets → Telegram](https://github.com/ArsenYoung/lead-capture-gas-tg)
-> Practical automation for lead intake: capture → store → notify → dedup.
-- Clean, business-readable flow
-- Easy to adapt for agencies (requests, briefs, approvals)
+### [AI Market Screener](https://github.com/ArsenYoung/ai-market-screener)
+Telegram bot for crypto/X threat intel with immediate risk alerts and daily digest.
+- Processes incoming text and turns it into structured risk signals
+- Supports alerting and digest workflows
+- Designed as a reusable AI triage pattern for operational workflows
 
-#### 🛒 [ProductCard AI Bot](https://github.com/ArsenYoung/productcard-ai-bot)
-> Telegram bot that generates structured product/content cards using LLMs.
-- Useful for fast content production workflows
+### [ProductCard AI Bot](https://github.com/ArsenYoung/productcard-ai-bot)
+Telegram bot and CLI for generating structured product/content cards with a local LLM.
+- Structured JSON generation with retry on invalid output
+- Local LLM setup via Ollama
+- Reusable pattern for product, content, and internal drafting workflows
+
+### [Lead Capture: Webhook → Google Sheets → Telegram](https://github.com/ArsenYoung/lead-capture-gas-tg)
+Lightweight lead intake automation for forms and small growth workflows.
+- Captures webhook payloads into Google Sheets
+- Sends formatted Telegram alerts with lead context
+- Adds predictable error handling and logging for incoming payloads
 
 ---
 
-### 🔧 Tech stack
-**Python · JavaScript · FastAPI · n8n/Make · PostgreSQL/Supabase · Telegram Bot API · Docker · Google Apps Script**
+## Tech stack
+
+**Python · FastAPI · JavaScript / TypeScript · n8n · PostgreSQL · SQL · pgvector · Docker · REST APIs · Webhooks · OpenAI API · Telegram Bot API · Google Apps Script · Supabase**
 
 ---
 
-### 📫 Contact
+## What I care about
+
+I’m interested in systems that make business operations faster, more reliable, and easier to scale.  
+The best work for me sits at the intersection of **automation, integrations, backend engineering, and applied AI** — especially where the result is measurable in reduced manual work, clearer processes, and better operational reliability.
+
+---
+
+## Contact
+
 - Telegram: **@arseniy_ostroumov**
-- LinkedIn: https://www.linkedin.com/in/arseniy-ostroumov-80b468103/
-- Email: ostroumov.arsenii@gmail.com
+- LinkedIn: **[arseniy-ostroumov](https://www.linkedin.com/in/arseniy-ostroumov/)**
+- Email: **ostroumov.arsenii@gmail.com**
